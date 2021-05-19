@@ -1,4 +1,4 @@
-FROM containerbase/buildpack@sha256:8d0bd58e02d271304e6ab378aede3927dd2cfb98cdae59d0e8bf6f66a5393963
+FROM containerbase/buildpack@sha256:7a445e77431e8acb20c48b91727f5509ff94f8019d31635218d4d6e22fd9b2ac
 
 # renovate: datasource=docker versioning=docker
 RUN install-tool node 14.16.1 \
